@@ -81,7 +81,19 @@ ul{
     width: 60% 40;
 }
 .submit-one{
-    padding: 4px;
+    padding: 8px;
     background-color: #3882f6;
     color: white;
+    border-radius: 6px;
+    font-size: small;
+    font-weight: bold;
+    margin: 8px;
+}
+.rand-container{
+    padding: 20px;
+}
+.rand{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
