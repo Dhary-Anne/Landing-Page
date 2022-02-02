@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#top{
+    background-color: #1F2937;
+    padding-bottom: 20px;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.logo{
+    display: inline;
+    color: white;
+}
+.header-content{
+    color: white;
+}
+.right-links{
+    display: flex;
+    color: white;
+   /* position: relative;*/
+    /*left: 1000px;*/
+    cursor: pointer;
+    gap: 20px;
+    justify-content: end;
+}
+.right-links a:link{
+    color: white;
+}
+.right-links a:visited{
+    color:antiquewhite;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rand-info-cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 18px;
+}
+
+#rand-info-cards .card{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding: 10px;
+}
+.quote-words{
+    font-style: italic;
+    text-align: center;
+    font-size: x-large;
+}
+.quote-author{
+    font-weight: bold;
+    position: relative;
+    text-align: right;
+    font-size: larger;
+}
+.call-container{
+    background-color: white;
+}
+.call-to-action{
+    background-color: #3882f6;
+    padding: 4px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60% 40;
+}
+.submit-one{
+    padding: 4px;
+    background-color: #3882f6;
+    color: white;
+}
